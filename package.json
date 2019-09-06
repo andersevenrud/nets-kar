@@ -1,0 +1,30 @@
+{
+  "name": "nets-kar",
+  "version": "1.0.3",
+  "description": "Nets KAR Web Service API",
+  "main": "dist/kar.js",
+  "module": "kar.js",
+  "files": [
+    "dist/kar.js",
+    "dist/kar.js.map",
+    "kar.js",
+    "README.md"
+  ],
+  "scripts": {
+    "test": "jest",
+    "build": "parcel build --target node -d dist/ kar.js"
+  },
+  "author": "Anders Evenrud <andersevenrud@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "request": "^2.88.0",
+    "request-promise": "^4.2.4"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.5.5",
+    "@babel/preset-env": "^7.4.5",
+    "babel-jest": "^24.8.0",
+    "jest": "^24.8.0",
+    "parcel-bundler": "^1.12.3"
+  }
+}
