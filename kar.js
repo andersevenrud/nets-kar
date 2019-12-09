@@ -61,7 +61,9 @@ export const ownershipMessages = {
   '09': 'Ukjent registernummer i angitt konto.',
   '10': 'Angitt konto er ikke CDV-gyldig.',
   '11': 'Angitt kundenummer er ikke gyldig.',
-  '13': 'Bankens data er sperret for oppslag fra andre banker.'
+  '13': 'Bankens data er sperret for oppslag fra andre banker.',
+  '14': 'Kan ikke verifiseres',
+  '15': 'Kan ikke verifiseres'
 }
 
 /**
